@@ -15,11 +15,17 @@ Git notes
 
 5. git push
 	// add new origin in the commandline
+	git init
+	git add .
+	git commit -m "comment"
 	git branch -M main
 	git remote add origin [url e.g. https://github.com/multiventures/project.git]
 	git push -u origin main
 
 	//add to an existing repository
+	git init
+	git add .
+	git commit -m "comment"
 	git remote add origin [url e.g. https://github.com/multiventures/project.git]
 	git branch -M main
 	git push -u origin
