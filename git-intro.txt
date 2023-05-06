@@ -1,0 +1,26 @@
+Git notes
+1. to create a git a repository in yor p[roject folder:
+	git init
+	ls -a ->show the created folder for github
+
+2. git status
+ 	->shows the status of the git folder 
+
+3. git add
+	git add index.html (only the changed files are the ones included)
+	git add index1.html index2.html
+  git add . -> adds everything without necessarilly you mentioning each file
+
+4. git commit -m "created a new file"
+
+5. git log
+	-> shows the history of commits
+
+6. git checkout <commit-hash>
+	-> returns the changes to the where the hash key inputed was previously
+
+7. git branch -> view the branches branch
+	git branch new-anime.css -> create a new brach
+
+8. git merge -> merges the branches
+	git merge new-anime.css
