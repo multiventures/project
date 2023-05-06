@@ -13,13 +13,31 @@ Git notes
 
 4. git commit -m "created a new file"
 
-5. git log
+5. git push
+	// add new origin in the commandline
+	git branch -M main
+	git remote add origin [url e.g. https://github.com/multiventures/project.git]
+	git push -u origin main
+
+	//add to an existing repository
+	git remote add origin [url e.g. https://github.com/multiventures/project.git]
+	git branch -M main
+	git push -u origin
+
+	//updating a repository
+	git add .
+	git commit -m "comment"
+	git push origin main
+
+
+
+6. git log
 	-> shows the history of commits
 
-6. git checkout <commit-hash>
+7. git checkout <commit-hash>
 	-> returns the changes to the where the hash key inputed was previously
 
-7. git branch -> view the branches branch
+8. git branch -> view the branches branch
 	git branch new-anime.css -> create a new brach
 
 8. git merge -> merges the branches
