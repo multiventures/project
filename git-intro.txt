@@ -48,3 +48,18 @@ Git notes
 
 8. git merge -> merges the branches
 	git merge new-anime.css
+	
+	
+Solving github issues
+	err: [please enter a commit message to explain why...]
+	1. Enter a commit message in any line without including the '#' in the first chracter of the message
+	2. Press ctrl + c on windows
+	3. Input 'qa!' on the keyboard and press enter
+	-- This sholud solve your issue
+	
+	
+	err: [ Updates were rejected because the tip of your current branch is behind its remote counterpart. Integrate the remote changes (e.g. 'git pull 		...') before pushing again.  See the 'Note about fast-forwards' in 'git push --help' for details.]
+	1. Type on your keyborad 'git pull origin main --allow-unrelated-histories'
+	2.Enter a commit message in any line without including the '#' in the first chracter of the message
+	3. Press ctrl + c on windows
+	4. Input 'qa!' on the keyboard and press enter
